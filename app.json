@@ -1,0 +1,109 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-11-04T04:37:28.231Z",
+  "item": {
+    "title": "みなとみらい 港まち散歩",
+    "subtitle": "海辺の名所を地図からめぐる"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "map",
+    "showHeader": true,
+    "theme": {
+      "mode": "light",
+      "accent": "default"
+    },
+    "layout": {
+      "left": {
+        "hidden": false,
+        "width": "360px",
+        "title": "見どころ",
+        "collapsed": false,
+        "blocks": [
+          {
+            "type": "customMount",
+            "id": "minatomirai-guide",
+            "title": "スポットを選ぶ",
+            "icon": "pin"
+          }
+        ]
+      }
+    },
+    "widgets": [
+      {
+        "id": "home",
+        "type": "home",
+        "slot": "top-left",
+        "title": "みなとみらいへ戻る",
+        "config": {}
+      },
+      {
+        "id": "scale",
+        "type": "scaleBar",
+        "slot": "bottom-left",
+        "title": "縮尺",
+        "config": {}
+      },
+      {
+        "id": "layer-visibility",
+        "type": "layerList",
+        "slot": "top-right",
+        "title": "レイヤー表示切り替え",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "minatomirai-tour-guide",
+        "label": "みなとみらい観光スポット案内",
+        "bundlePath": "./runtime/behaviors/minatomirai-tour-guide-f6ebb6eaadbe7f9a.js",
+        "sourceSha256": "f6ebb6eaadbe7f9a683b9b7620e9f8a5786a637934955a5e0b793209a0ef7c42",
+        "modulePaths": [
+          "esri/Basemap",
+          "esri/Graphic",
+          "esri/layers/FeatureLayer"
+        ],
+        "config": {
+          "initialCenter": [
+            139.632,
+            35.456
+          ],
+          "initialZoom": 15
+        },
+        "mounts": [
+          "minatomirai-guide"
+        ],
+        "ownedLayerIds": [
+          "minatomirai-spots"
+        ],
+        "interactions": [],
+        "installedAt": "2026-11-04T05:46:52.088Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "bd37bf23-0a88-46cb-8586-8c59f2a1b0af",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [
+      "nova-graphics-minatomirai-walking-route--polyline"
+    ],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-4d459c11-dcd2-4066-bf9a-0978996af32c",
+      "mapName": "New Conversation",
+      "viewMode": "2d",
+      "capturedAt": "2026-11-04T04:37:28.225Z"
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": []
+  }
+}

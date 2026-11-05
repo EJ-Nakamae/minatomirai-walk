@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-11-05T04:11:41.337Z",
+  "title": "みなとみらい 港まち散歩",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-11-04T04-37-28-bd37bf23-0a88-46cb-8586-8c59f2a1b0af/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "ns4JeBnpJkuevq0s",
+  "deploymentUrl": "https://ej-nakamae.github.io/minatomirai-walk/"
+}

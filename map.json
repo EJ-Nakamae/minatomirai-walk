@@ -1,0 +1,445 @@
+{
+  "operationalLayers": [
+    {
+      "id": "nova-graphics-minatomirai-walking-route--polyline",
+      "title": "6スポットおすすめ散策ルート",
+      "layerType": "ArcGISFeatureLayer",
+      "featureCollection": {
+        "layers": [
+          {
+            "layerDefinition": {
+              "geometryType": "esriGeometryPolyline",
+              "objectIdField": "OBJECTID",
+              "fields": [
+                {
+                  "name": "OBJECTID",
+                  "alias": "OBJECTID",
+                  "type": "esriFieldTypeOID"
+                },
+                {
+                  "name": "nova_graphicId",
+                  "alias": "nova_graphicId",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "nova_title",
+                  "alias": "nova_title",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "nova_description",
+                  "alias": "nova_description",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "nova_origin",
+                  "alias": "nova_origin",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "nova_visible",
+                  "alias": "nova_visible",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "nova_createdAt",
+                  "alias": "nova_createdAt",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "nova_updatedAt",
+                  "alias": "nova_updatedAt",
+                  "type": "esriFieldTypeString",
+                  "length": 255
+                },
+                {
+                  "name": "FirstStopID",
+                  "alias": "FirstStopID",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "LastStopID",
+                  "alias": "LastStopID",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "Name",
+                  "alias": "Name",
+                  "type": "esriFieldTypeString",
+                  "length": 4000
+                },
+                {
+                  "name": "ObjectID",
+                  "alias": "ObjectID",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "Shape_Length",
+                  "alias": "Shape_Length",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "StopCount",
+                  "alias": "StopCount",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "Total_Kilometers",
+                  "alias": "Total_Kilometers",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "Total_Miles",
+                  "alias": "Total_Miles",
+                  "type": "esriFieldTypeDouble"
+                },
+                {
+                  "name": "Total_WalkTime",
+                  "alias": "Total_WalkTime",
+                  "type": "esriFieldTypeDouble"
+                }
+              ],
+              "drawingInfo": {
+                "renderer": {
+                  "type": "simple",
+                  "symbol": {
+                    "type": "esriSLS",
+                    "color": [
+                      24,
+                      166,
+                      166,
+                      255
+                    ],
+                    "width": 5,
+                    "style": "esriSLSSolid"
+                  }
+                }
+              },
+              "maxScale": 0,
+              "minScale": 0
+            },
+            "popupInfo": {
+              "popupElements": [
+                {
+                  "type": "fields"
+                }
+              ],
+              "title": "{nova_title}"
+            },
+            "featureSet": {
+              "geometryType": "esriGeometryPolyline",
+              "features": [
+                {
+                  "aggregateGeometries": null,
+                  "geometry": {
+                    "spatialReference": {
+                      "wkid": 4326
+                    },
+                    "paths": [
+                      [
+                        [
+                          139.6320266990001,
+                          35.45411704300005
+                        ],
+                        [
+                          139.63177132900012,
+                          35.45396713700006
+                        ]
+                      ],
+                      [
+                        [
+                          139.63177132900012,
+                          35.45396713700006
+                        ],
+                        [
+                          139.6320266990001,
+                          35.45411704300005
+                        ],
+                        [
+                          139.6321958970001,
+                          35.45426286500003
+                        ],
+                        [
+                          139.63232753600005,
+                          35.45440759400003
+                        ],
+                        [
+                          139.63272118200007,
+                          35.454974965000076
+                        ],
+                        [
+                          139.6330703100001,
+                          35.45526646800005
+                        ],
+                        [
+                          139.634711809,
+                          35.45614973900007
+                        ],
+                        [
+                          139.63480350800012,
+                          35.456199249000065
+                        ]
+                      ],
+                      [
+                        [
+                          139.63480350800012,
+                          35.456199249000065
+                        ],
+                        [
+                          139.63607880100005,
+                          35.45687980800005
+                        ],
+                        [
+                          139.63634006900008,
+                          35.457026615000075
+                        ],
+                        [
+                          139.63698980900006,
+                          35.45628003100006
+                        ],
+                        [
+                          139.6373520090001,
+                          35.45596218400004
+                        ],
+                        [
+                          139.63818224200008,
+                          35.45538923100003
+                        ],
+                        [
+                          139.63823997300005,
+                          35.45535350100005
+                        ],
+                        [
+                          139.63858358000005,
+                          35.45579881400005
+                        ],
+                        [
+                          139.638663306,
+                          35.45585379100004
+                        ],
+                        [
+                          139.63873476700007,
+                          35.45588953600003
+                        ],
+                        [
+                          139.6388942210001,
+                          35.455895035000026
+                        ],
+                        [
+                          139.63907325800005,
+                          35.45581657100007
+                        ]
+                      ],
+                      [
+                        [
+                          139.63907325800005,
+                          35.45581657100007
+                        ],
+                        [
+                          139.6411429840001,
+                          35.45468963400003
+                        ],
+                        [
+                          139.64117323000005,
+                          35.454728113000044
+                        ],
+                        [
+                          139.6415852340001,
+                          35.455244339000046
+                        ]
+                      ],
+                      [
+                        [
+                          139.6415852340001,
+                          35.455244339000046
+                        ],
+                        [
+                          139.64165624600003,
+                          35.45520439100005
+                        ],
+                        [
+                          139.64125569400005,
+                          35.45467863500005
+                        ],
+                        [
+                          139.64122546400006,
+                          35.45464290600006
+                        ],
+                        [
+                          139.640683931,
+                          35.45394329900006
+                        ],
+                        [
+                          139.64092983900002,
+                          35.45379235000007
+                        ],
+                        [
+                          139.6413080090001,
+                          35.45343182000005
+                        ],
+                        [
+                          139.64166537300002,
+                          35.45297981700003
+                        ],
+                        [
+                          139.64191637300007,
+                          35.45249370800008
+                        ],
+                        [
+                          139.64198920900003,
+                          35.45214522100008
+                        ]
+                      ]
+                    ]
+                  },
+                  "symbol": {
+                    "type": "esriSLS",
+                    "color": [
+                      24,
+                      166,
+                      166,
+                      255
+                    ],
+                    "width": 5,
+                    "style": "esriSLSSolid"
+                  },
+                  "attributes": {
+                    "FirstStopID": 1,
+                    "LastStopID": 6,
+                    "Name": "Location 1 - Location 6",
+                    "ObjectID": 1,
+                    "Shape_Length": 0.01654292537728312,
+                    "StopCount": 6,
+                    "Total_Kilometers": 1.6481886647985167,
+                    "Total_Miles": 1.0241675032054935,
+                    "Total_WalkTime": 19.778359274901604,
+                    "nova_graphicId": "graphic-1793771357596-0-vtb5ys",
+                    "nova_title": "6スポットおすすめ散策ルート 1",
+                    "nova_origin": "derived",
+                    "nova_visible": true,
+                    "nova_createdAt": 1793771357596,
+                    "nova_updatedAt": 1793771357596,
+                    "OBJECTID": 1
+                  },
+                  "popupTemplate": {
+                    "description": "",
+                    "title": "{nova_title}"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "showLegend": true
+      },
+      "opacity": 1,
+      "visibility": true,
+      "blendMode": "normal",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "type": "simple",
+            "symbol": {
+              "type": "esriSLS",
+              "color": [
+                24,
+                166,
+                166,
+                255
+              ],
+              "width": 5,
+              "style": "esriSLSSolid"
+            }
+          }
+        }
+      },
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields"
+          }
+        ],
+        "title": "{nova_title}"
+      }
+    },
+    {
+      "id": "1a1a51ca74c-layer-67",
+      "title": "高解像度降水ナウキャスト（観測時刻）",
+      "url": "https://services3.arcgis.com/drvUp6lv9n5rhQjQ/arcgis/rest/services/nowcast0_v2_view/FeatureServer/0",
+      "visibility": true,
+      "itemId": "b42e7b5192cf43e78fe4861a2d701d06",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal"
+    },
+    {
+      "id": "1a1a51fc7c4-layer-68",
+      "title": "トヨタ通行量",
+      "url": "https://services3.arcgis.com/drvUp6lv9n5rhQjQ/arcgis/rest/services/toreta_traffic_offset_view/FeatureServer/0",
+      "visibility": true,
+      "itemId": "dfb25984386c40648ff770b588f419f9",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal"
+    },
+    {
+      "id": "1a1a51fcc6f-layer-69",
+      "title": "トヨタ渋滞度",
+      "url": "https://services3.arcgis.com/drvUp6lv9n5rhQjQ/arcgis/rest/services/traffic_jam_1_view/FeatureServer/0",
+      "visibility": true,
+      "itemId": "c0e9bd8c82094e90abb8da87a61eb4d9",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal"
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "world-hillshade-layer",
+        "showLegend": false,
+        "opacity": 1,
+        "title": "World Hillshade",
+        "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+        "visibility": true,
+        "layerType": "ArcGISTiledMapServiceLayer"
+      },
+      {
+        "id": "topo-vector-base-layer",
+        "opacity": 1,
+        "title": "World Topo",
+        "visibility": true,
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json"
+      }
+    ],
+    "title": "地形図"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -24533355.565409333,
+        "ymin": 4224485.397861194,
+        "xmax": -24529151.528853536,
+        "ymax": 4227561.988249753
+      },
+      "scale": 18055.95482199639,
+      "rotation": 0
+    }
+  }
+}
